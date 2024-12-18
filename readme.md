@@ -100,7 +100,7 @@ The project's dependencies are listed in the flask_api/requirements.txt file. Yo
 pip install -r flask_api/requirements.txt
 ```
 
-## App Tests README
+## Tests
 
 This project includes unit tests to ensure the correctness of the app's core functionalities. The tests are implemented using the `unittest` framework.
 
