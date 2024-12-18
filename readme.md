@@ -119,3 +119,5 @@ To run the tests, use the following command:
 ```bash
 python -m unittest discover -s tests
 ```
+
+To improve the app's structure and code quality, I recommend centralizing configuration settings by introducing a configuration file (e.g., `config.py`) to manage key parameters such as file paths, intervals, and API settings. This will make the app easier to configure and maintain. Additionally, refactoring the code into smaller, more modular components will enhance clarity and reusability. In a real-world scenario, I would encapsulate all tasks related to data ingestion, processing, and analytics within the Flask API itself, simplifying the architecture and reducing the need for separate scripts. This would streamline the application and better align it with common production practices.
